@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtReaddataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtReaddata">
+        <id column="id" property="id" />
+        <result column="sbbm" property="sbbm" />
+        <result column="rq" property="rq" />
+        <result column="ua" property="ua" />
+        <result column="ub" property="ub" />
+        <result column="uc" property="uc" />
+        <result column="ia" property="ia" />
+        <result column="ib" property="ib" />
+        <result column="ic" property="ic" />
+        <result column="glys" property="glys" />
+        <result column="glys_a" property="glysA" />
+        <result column="glys_b" property="glysB" />
+        <result column="glys_c" property="glysC" />
+        <result column="yggl" property="yggl" />
+        <result column="yggl_a" property="ygglA" />
+        <result column="yggl_b" property="ygglB" />
+        <result column="yggl_c" property="ygglC" />
+        <result column="wggl" property="wggl" />
+        <result column="wggl_a" property="wgglA" />
+        <result column="wggl_b" property="wgglB" />
+        <result column="wggl_c" property="wgglC" />
+        <result column="zxygzdn" property="zxygzdn" />
+        <result column="fxygzdn" property="fxygzdn" />
+        <result column="wgzdn" property="wgzdn" />
+        <result column="wgzdn2" property="wgzdn2" />
+        <result column="yxx" property="yxx" />
+        <result column="exx" property="exx" />
+        <result column="sxx" property="sxx" />
+        <result column="sixx" property="sixx" />
+        <result column="ygxl" property="ygxl" />
+        <result column="wgxl" property="wgxl" />
+        <result column="u_status" property="uStatus" />
+        <result column="szzgl" property="szzgl" />
+        <result column="szgl_a" property="szglA" />
+        <result column="szgl_b" property="szglB" />
+        <result column="szgl_c" property="szglC" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sbbm, rq, ua, ub, uc, ia, ib, ic, glys, glys_a, glys_b, glys_c, yggl, yggl_a, yggl_b, yggl_c, wggl, wggl_a, wggl_b, wggl_c, zxygzdn, fxygzdn, wgzdn, wgzdn2, yxx, exx, sxx, sixx, ygxl, wgxl, u_status, szzgl, szgl_a, szgl_b, szgl_c
+    </sql>
+
+</mapper>

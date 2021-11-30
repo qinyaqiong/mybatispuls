@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.TWithoutScanMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.TWithoutScan">
+        <id column="guid" property="guid" />
+        <result column="bh" property="bh" />
+        <result column="cons_count" property="consCount" />
+        <result column="mc" property="mc" />
+        <result column="modle_type" property="modleType" />
+        <result column="org_no" property="orgNo" />
+        <result column="p_org_no" property="pOrgNo" />
+        <result column="remark" property="remark" />
+        <result column="scan_time" property="scanTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        guid, bh, cons_count, mc, modle_type, org_no, p_org_no, remark, scan_time
+    </sql>
+
+</mapper>

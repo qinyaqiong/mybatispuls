@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.RDataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.RData">
+        <id column="ID" property="id" />
+        <result column="ORG_NO" property="orgNo" />
+        <result column="READ_TYPE" property="readType" />
+        <result column="NUM_PQ" property="numPq" />
+        <result column="JIAN" property="jian" />
+        <result column="FENG" property="feng" />
+        <result column="PING" property="ping" />
+        <result column="GU" property="gu" />
+        <result column="READ_DATE" property="readDate" />
+        <result column="METER_NO" property="meterNo" />
+        <result column="FZ_NO" property="fzNo" />
+        <result column="DATA_TYPE" property="dataType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, ORG_NO, READ_TYPE, NUM_PQ, JIAN, FENG, PING, GU, READ_DATE, METER_NO, FZ_NO, DATA_TYPE
+    </sql>
+
+</mapper>

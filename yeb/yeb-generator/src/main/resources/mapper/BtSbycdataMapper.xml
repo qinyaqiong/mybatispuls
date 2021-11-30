@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtSbycdataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtSbycdata">
+        <id column="id" property="id" />
+        <result column="sbbm" property="sbbm" />
+        <result column="dl" property="dl" />
+        <result column="dy" property="dy" />
+        <result column="date_time" property="dateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sbbm, dl, dy, date_time
+    </sql>
+
+</mapper>

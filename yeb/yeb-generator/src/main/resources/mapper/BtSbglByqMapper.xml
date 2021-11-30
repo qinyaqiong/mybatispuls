@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtSbglByqMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtSbglByq">
+        <id column="id" property="id" />
+        <result column="sblx" property="sblx" />
+        <result column="ssdw" property="ssdw" />
+        <result column="byqmc" property="byqmc" />
+        <result column="ssxl" property="ssxl" />
+        <result column="byqzl" property="byqzl" />
+        <result column="edrl" property="edrl" />
+        <result column="eddl" property="eddl" />
+        <result column="eddy" property="eddy" />
+        <result column="kzsh" property="kzsh" />
+        <result column="kzdl" property="kzdl" />
+        <result column="fzsh" property="fzsh" />
+        <result column="dlzk" property="dlzk" />
+        <result column="dw" property="dw" />
+        <result column="cj" property="cj" />
+        <result column="zzrq" property="zzrq" />
+        <result column="tyrq" property="tyrq" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sblx, ssdw, byqmc, ssxl, byqzl, edrl, eddl, eddy, kzsh, kzdl, fzsh, dlzk, dw, cj, zzrq, tyrq
+    </sql>
+
+</mapper>

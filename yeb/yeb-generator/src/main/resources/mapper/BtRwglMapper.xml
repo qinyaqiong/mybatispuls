@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtRwglMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtRwgl">
+        <id column="rwbh" property="rwbh" />
+        <result column="gldw" property="gldw" />
+        <result column="rwlx" property="rwlx" />
+        <result column="kssj" property="kssj" />
+        <result column="jssj" property="jssj" />
+        <result column="rwnr" property="rwnr" />
+        <result column="fzr" property="fzr" />
+        <result column="zxr" property="zxr" />
+        <result column="cjr" property="cjr" />
+        <result column="cjsj" property="cjsj" />
+        <result column="rwzt" property="rwzt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        rwbh, gldw, rwlx, kssj, jssj, rwnr, fzr, zxr, cjr, cjsj, rwzt
+    </sql>
+
+</mapper>

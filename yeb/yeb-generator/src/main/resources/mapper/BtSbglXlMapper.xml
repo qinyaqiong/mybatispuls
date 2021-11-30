@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtSbglXlMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtSbglXl">
+        <id column="id" property="id" />
+        <result column="ssdw" property="ssdw" />
+        <result column="sbmc" property="sbmc" />
+        <result column="sblx" property="sblx" />
+        <result column="sbxh" property="sbxh" />
+        <result column="dydj" property="dydj" />
+        <result column="xlcd" property="xlcd" />
+        <result column="xlcz" property="xlcz" />
+        <result column="gtsl" property="gtsl" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, ssdw, sbmc, sblx, sbxh, dydj, xlcd, xlcz, gtsl
+    </sql>
+
+</mapper>

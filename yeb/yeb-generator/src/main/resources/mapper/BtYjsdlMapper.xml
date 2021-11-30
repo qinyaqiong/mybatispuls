@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtYjsdlMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtYjsdl">
+        <id column="id" property="id" />
+        <result column="gldw" property="gldw" />
+        <result column="meter_no" property="meterNo" />
+        <result column="read_date" property="readDate" />
+        <result column="bjdl" property="bjdl" />
+        <result column="bsdl" property="bsdl" />
+        <result column="xlftdl" property="xlftdl" />
+        <result column="zxftdl" property="zxftdl" />
+        <result column="yjsdl" property="yjsdl" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, gldw, meter_no, read_date, bjdl, bsdl, xlftdl, zxftdl, yjsdl
+    </sql>
+
+</mapper>

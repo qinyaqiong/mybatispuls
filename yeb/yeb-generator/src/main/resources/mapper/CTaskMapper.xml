@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.CTaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.CTask">
+        <id column="TASK_ID" property="taskId" />
+        <result column="ORG_NO" property="orgNo" />
+        <result column="TASK_NAME" property="taskName" />
+        <result column="START_DATE" property="startDate" />
+        <result column="EXECU_FREQ" property="execuFreq" />
+        <result column="COLL_TYPE" property="collType" />
+        <result column="EXECU_DATE" property="execuDate" />
+        <result column="TASK_STATUS" property="taskStatus" />
+        <result column="RETRY_COUNT" property="retryCount" />
+        <result column="Cron_Expression" property="cronExpression" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TASK_ID, ORG_NO, TASK_NAME, START_DATE, EXECU_FREQ, COLL_TYPE, EXECU_DATE, TASK_STATUS, RETRY_COUNT, Cron_Expression
+    </sql>
+
+</mapper>

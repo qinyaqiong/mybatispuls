@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.PSpecialMaintLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.PSpecialMaintLog">
+        <id column="log_id" property="logId" />
+        <result column="chg_type_code" property="chgTypeCode" />
+        <result column="content7" property="content7" />
+        <result column="end_time2" property="endTime2" />
+        <result column="log_time" property="logTime" />
+        <result column="login_ip" property="loginIp" />
+        <result column="primary_key" property="primaryKey" />
+        <result column="result" property="result" />
+        <result column="safelevel" property="safelevel" />
+        <result column="table_name" property="tableName" />
+        <result column="user_name2" property="userName2" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        log_id, chg_type_code, content7, end_time2, log_time, login_ip, primary_key, result, safelevel, table_name, user_name2
+    </sql>
+
+</mapper>

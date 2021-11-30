@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtKhbMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtKhb">
+        <id column="id" property="id" />
+        <result column="khdyid" property="khdyid" />
+        <result column="gdb" property="gdb" />
+        <result column="gdbmc" property="gdbmc" />
+        <result column="sdb" property="sdb" />
+        <result column="sdbmc" property="sdbmc" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, khdyid, gdb, gdbmc, sdb, sdbmc
+    </sql>
+
+</mapper>

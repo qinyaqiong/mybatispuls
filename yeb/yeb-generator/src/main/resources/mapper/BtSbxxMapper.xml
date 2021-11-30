@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtSbxxMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtSbxx">
+        <id column="sb_code" property="sbCode" />
+        <result column="xxwz" property="xxwz" />
+        <result column="jd" property="jd" />
+        <result column="wd" property="wd" />
+        <result column="ssdwbm" property="ssdwbm" />
+        <result column="devStatus" property="devStatus" />
+        <result column="status_date" property="statusDate" />
+        <result column="WiringMode" property="WiringMode" />
+        <result column="u_status" property="uStatus" />
+        <result column="dlbb" property="dlbb" />
+        <result column="dybb" property="dybb" />
+        <result column="parent_code" property="parentCode" />
+        <result column="type" property="type" />
+        <result column="xy_type" property="xyType" />
+        <result column="sbrl" property="sbrl" />
+        <result column="byqdw" property="byqdw" />
+        <result column="ydzl" property="ydzl" />
+        <result column="xlcd" property="xlcd" />
+        <result column="kbslx" property="kbslx" />
+        <result column="byqxh" property="byqxh" />
+        <result column="byqhgqbh" property="byqhgqbh" />
+        <result column="px" property="px" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        sb_code, xxwz, jd, wd, ssdwbm, devStatus, status_date, WiringMode, u_status, dlbb, dybb, parent_code, type, xy_type, sbrl, byqdw, ydzl, xlcd, kbslx, byqxh, byqhgqbh, px
+    </sql>
+
+</mapper>

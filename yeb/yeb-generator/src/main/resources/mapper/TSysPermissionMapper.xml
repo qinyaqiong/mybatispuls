@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lpg.com.mapper.TSysPermissionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="lpg.com.pojo.TSysPermission">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="descripion" property="descripion" />
+        <result column="url" property="url" />
+        <result column="is_blank" property="isBlank" />
+        <result column="pid" property="pid" />
+        <result column="perms" property="perms" />
+        <result column="type" property="type" />
+        <result column="icon" property="icon" />
+        <result column="order_num" property="orderNum" />
+        <result column="visible" property="visible" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, descripion, url, is_blank, pid, perms, type, icon, order_num, visible
+    </sql>
+
+</mapper>

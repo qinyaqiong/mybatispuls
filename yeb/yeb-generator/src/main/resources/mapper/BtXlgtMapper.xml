@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BtXlgtMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.pojo.BtXlgt">
+        <id column="gtbh" property="gtbh" />
+        <result column="gtmc" property="gtmc" />
+        <result column="xlbm" property="xlbm" />
+        <result column="jd" property="jd" />
+        <result column="wd" property="wd" />
+        <result column="bz" property="bz" />
+        <result column="paixu" property="paixu" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        gtbh, gtmc, xlbm, jd, wd, bz, paixu
+    </sql>
+
+</mapper>
